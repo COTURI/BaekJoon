@@ -1,6 +1,5 @@
 package q2439;
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -13,10 +12,11 @@ public class Main {
 			for (int j = 0; j <= i; j++) {
 				System.out.print("*");
 			}
-			for(int p = 0; p<a ; p++) {
+			for (int p = 0; p < a; p++) {
 				System.out.println(" ");
-			
-			System.out.println();
+
+				System.out.println();
+			}
 		}
 	}
 }
