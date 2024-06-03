@@ -20,7 +20,7 @@ public class Main {
 				arr[j] = ball;
 			}
 		}
-
+		sc.close();
 		for (int baguni : arr)
 			System.out.print(baguni + " ");
 	}
