@@ -8,12 +8,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int[] num = new int[n];
-		int cnt = 0;
-		for(int i = 0; i<num.length ; i++) {
-			int a = sc.nextInt();
-			num[i] = (char)a[i]
+		String a = sc.next();
+		sc.close();
+		int sum = 0;
+		for(int i = 0; i<n ; i++) {
+			sum += a.charAt(i)-'0';
 		}
+			
+		System.out.print(sum);
 	}
 
 }
